@@ -1,16 +1,21 @@
 # Projeto-Avaliado-Sistema-de-Votação-Eletronica-Escolar
-#-----------------------------------------------------/
-# Projeto " Sistema de Votação Eletrónica Escolar "
+
+
  
 # Elementos do Grupo 
- - Rodrigo Carrilho nº --
+ - Rodrigo Carrilho nº 20
  - Diego Albino nº 5
  - Aaron Domingos nº 1
- - Fabio Junior nº --
+ - Fabio Junior nº 27
+   
 Turma: 10º GPSI
-#------------------------------------------------/
+
 
 # Descrição do Projeto 
+!
+!
+!
+!
 
 # •	Explicação da estrutura de ficheiros
 
@@ -18,10 +23,15 @@ A estrutura do projeto é organizada em diferentes arquivos para separar as resp
 Cada arquivo tem uma função específica dentro do sistema de votação:
 
 📁 voting-system/
+
  ├── candidate.js
+ 
  ├── voteManager.js
+
  ├── results.js
+ 
  ├── validation.js
+ 
  └── app.js
 
 # •	Responsabilidade de cada ficheiro
@@ -46,4 +56,7 @@ Cada arquivo tem uma função específica dentro do sistema de votação:
 - **determineWinner(candidates)**: Determina o vencedor da eleição com base nos votos.
 
 # •	Justificação das decisões tomadas
-
+!
+!
+!
+!
