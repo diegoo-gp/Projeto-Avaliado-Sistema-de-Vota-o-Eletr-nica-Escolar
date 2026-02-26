@@ -27,4 +27,5 @@ function registerVote(voters, names, votes, voterId, candidateName) {
 export {
     createVoteManager,
     registerVote
+
 }
