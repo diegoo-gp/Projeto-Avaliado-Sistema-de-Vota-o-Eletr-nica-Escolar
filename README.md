@@ -65,7 +65,11 @@ Cada arquivo tem uma função específica dentro do sistema de votação:
 - **determineWinner(candidates)**: Determina o vencedor da eleição com base nos votos.
 
 # •	Justificação das decisões tomadas
-!
-!
-!
-!
+Durante o desenvolvimento do sistema de votação eletrónica, foram tomadas várias decisões técnicas com o objetivo de garantir organização, simplicidade e fiabilidade do programa.
+Primeiramente, optou-se por dividir o projeto em vários ficheiros (modularização). Esta decisão foi tomada para separar responsabilidades e tornar o código mais organizado, legível e fácil de manter. 
+Cada ficheiro trata apenas de uma parte específica do sistema, evitando confusão e facilitando futuras melhorias.
+A utilização de funções específicas para cada tarefa (como criar candidato, validar dados, calcular resultados, etc.) foi escolhida para tornar o código reutilizável e mais estruturado. 
+Isso permite evitar repetição de código e facilita a identificação de erros.
+Foi também implementado um sistema de verificação de votos duplicados. Esta decisão foi essencial para garantir justiça no processo eleitoral, impedindo que um eleitor vote mais do que uma vez.
+A validação de dados de entrada foi incluída para garantir a integridade do sistema. 
+Ao validar nomes e entradas do utilizador, evita-se que o programa aceite valores inválidos ou vazios, reduzindo a possibilidade de erros.
