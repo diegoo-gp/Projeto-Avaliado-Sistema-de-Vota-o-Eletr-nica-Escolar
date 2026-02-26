@@ -12,10 +12,19 @@ Turma: 10º GPSI
 
 
 # Descrição do Projeto 
-!
-!
-!
-!
+O presente projeto consiste no desenvolvimento de um sistema de votação eletrónica executado através do terminal, utilizando exclusivamente JavaScript.
+O sistema foi criado com o objetivo de simular eleições escolares, permitindo a realização de três tipos de votação:
+Eleição da Associação de Estudantes
+Eleição do Representante de Turma
+Votação do Orçamento Participativo Escolar
+O programa permite:
+Definir os nomes dos candidatos
+Registar votos de diferentes eleitores
+Impedir votos duplicados
+Calcular o total de votos
+Calcular percentagens com duas casas decimais
+Determinar o vencedor
+Detetar situações de empate
 
 # •	Explicação da estrutura de ficheiros
 
