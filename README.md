@@ -3,10 +3,10 @@
 
  
 # Elementos do Grupo 
- - Rodrigo Carrilho nº 20
- - Diego Albino nº 5
- - Aaron Domingos nº 1
- - Fabio Junior nº 27
+ - Rodrigo Carrilho nº 20  |  Ba2887
+ - Diego Albino nº 5       |  Ba2920
+ - Aaron Domingos nº 1     |  Ba2917
+ - Fabio Junior nº 27      |  Ba----
    
 Turma: 10º GPSI
 
