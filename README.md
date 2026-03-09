@@ -53,16 +53,16 @@ Cada arquivo tem uma função específica dentro do sistema de votação:
 
 # •	Explicação das principais funções
 
-- **createCandidate(name)**: Cria um novo candidato com um nome e inicializa os votos como 0.
-- **incrementVote(candidate)**: Incrementa o número de votos de um candidato.
-- **createVoteManager()**: Cria um gerenciador de votos que rastreia os eleitores.
-- **registerVote(manager, candidates, voterId, candidateName)**: Registra um voto para um eleitor em um candidato específico, verificando se o eleitor já votou e se o candidato existe.
-- **hasVoted(voters, voterId)**: Verifica se um eleitor já votou.
-- **candidateExists(candidates, name)**: Verifica se um candidato existe.
-- **isValidString(value)**: Verifica se uma string é válida (não vazia).
-- **getTotalVotes(candidates)**: Retorna o total de votos de todos os candidatos.
-- **calculatePercentages(candidates)**: Calcula a porcentagem de votos para cada candidato.
-- **determineWinner(candidates)**: Determina o vencedor da eleição com base nos votos.
+criarCandidato(nome): Cria um novo candidato com um nome e inicializa os votos como 0.
+incrementarVoto(candidato): Incrementa o número de votos de um candidato.
+criarGestorDeVotos(): Cria um gerenciador de votos que rastreia os eleitores.
+registarVoto(gestor, candidatos, idEleitor, nomeCandidato): Regista um voto para um eleitor em um candidato específico, verificando se o eleitor já votou e se o candidato existe.
+jaVotou(eleitores, idEleitor): Verifica se um eleitor já votou.
+candidatoExiste(candidatos, nome): Verifica se um candidato existe.
+stringValida(valor): Verifica se uma string é válida (não vazia).
+obterTotalVotos(candidatos): Retorna o total de votos de todos os candidatos.
+calcularPercentagens(candidatos): Calcula a percentagem de votos para cada candidato.
+determinarVencedor(candidatos): Determina o vencedor da eleição com base nos votos.
 
 # •	Justificação das decisões tomadas
 Durante o desenvolvimento do sistema de votação eletrónica, foram tomadas várias decisões técnicas com o objetivo de garantir organização, simplicidade e fiabilidade do programa.
